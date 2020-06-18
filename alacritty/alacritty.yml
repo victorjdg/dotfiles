@@ -1,0 +1,120 @@
+# Configuration of Alacritty, the GPU-enhanced terminal emulator.
+
+# Environment configuration.
+env:
+  TERM: xterm-256color
+
+# Window configuration.
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+
+  padding:
+    x: 5
+    y: 5
+
+  dynamic_padding: false
+
+  decorations: full
+
+# Scrolling configuration.
+scrolling:
+  history: 10000
+
+  multiplier: 1
+
+# Font configuration.
+font:
+  normal:
+    family: Cascadia Code
+    style: Regular
+
+  bold:
+    family: Cascadia Code
+    style: Bold
+
+  italic:
+    family: Cascadia Code
+    style: Italic
+
+  size: 7.5
+
+  offset:
+    x: 0
+    y: 1
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+  scale_with_dpi: true
+
+  use_thin_strokes: false
+
+draw_bold_text_with_bright_colors: true
+
+# Debugging settings.
+debug.render_time: false
+debug.persistent_logging: false
+
+# Colors configuration.
+colors:
+  primary:
+    background: '0x0F0F0F'
+    foreground: '0xF0F0E6'
+
+  normal:
+    black:   '0x0D0D0D'
+    red:     '0xd30c8a' 
+    green:   '0xd34b0c' 
+    yellow:  '0xCCA828'
+    blue:    '0xd30c2d'
+    magenta: '0x713AA8'
+    cyan:    '0x4ACFBC'
+    white:   '0xB0B0B0'
+
+  bright:
+    black:   '0x858575'
+    red:     '0xD6779C'
+    green:   '0x88C661'
+    yellow:  '0xFFDA73'
+    blue:    '0x8CD6E2'
+    magenta: '0xFB85FF'
+    cyan:    '0x85EDE8'
+    white:   '0xFFFFFF'
+
+indexed_colors: []
+
+# Visual Bell configuration.
+visual_bell:
+  animation: EaseOutExpo
+  duration: 0
+
+# Background opacity: Opaque.
+background_opacity: 1.0
+
+# Mouse configuration.
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  faux_scrolling_lines: 1
+
+  hide_when_typing: false
+
+  url:
+    launcher: firefox
+    modifiers: Control
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  save_to_clipboard: true
+
+dynamic_title: true
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+live_config_reload: true
