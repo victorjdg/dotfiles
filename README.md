@@ -1,5 +1,5 @@
 # dotfiles
-Dotfiles of my configuration of Arch Linux for various programs as i3-gaps, alacritty, etc.
+Dotfiles of my configuration of Arch Linux for various programs as i3-gaps, alacritty and i3status-rust.
 
 # Desktop
 ![Desktop1](https://i.imgur.com/cQeTYz3.png)
